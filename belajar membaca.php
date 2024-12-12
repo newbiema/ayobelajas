@@ -101,8 +101,8 @@
 
                 <!-- Tombol Back ke Homepage -->
                 <div class="mt-6 text-center">
-            <a href="homepage.php" class="text-green-600 hover:text-green-800 font-bold text-lg underline transition duration-200 ease-in-out">
-                ← Kembali ke Homepage
+            <a href="index.php" class="text-green-600 hover:text-green-800 font-bold text-lg underline transition duration-200 ease-in-out">
+                ← Kembali ke Halaman Utama
             </a>
         </div>
 

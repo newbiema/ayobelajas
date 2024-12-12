@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($stmt->execute()) {
             echo "<script>alert('Registrasi berhasil! Silakan login.');</script>";
                         // Redirect ke homepage.php dengan query string
-                        header("Location: index.php");
+                        header("Location: login.php");
                         exit();
 
         } else {
@@ -92,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </button>
             <div class="text-purple-800 mt-4 flex justify-between text-sm">
               <p>Sudah punya akun?</p>
-              <a class="underline font-bold text-blue-600 hover:text-blue-800" href="index.php">Login</a>
+              <a class="underline font-bold text-blue-600 hover:text-blue-800" href="login.php">Login</a>
             </div>
           </div>
         </form>
